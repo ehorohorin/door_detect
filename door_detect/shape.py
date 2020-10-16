@@ -30,11 +30,11 @@ class Shape:
 
   # dump out shape info
   def printInfo(self):
-    print "Name:", self.name
-    print "Width:", self.width
-    print "Height:", self.height
-    print "Detected:", self.detected
-    print "Match max value:", self.maxValue
-    print "Middle coords:", self.middle
-    print "Top left coords of detection box:", self.topLeft
-    print "Bottom right coords of detection box:", self.bottomRight, "\n"
+    print ("Name:", self.name)
+    print ("Width:", self.width)
+    print ("Height:", self.height)
+    print ("Detected:", self.detected)
+    print ("Match max value:", self.maxValue)
+    print ("Middle coords:", self.middle)
+    print ("Top left coords of detection box:", self.topLeft)
+    print ("Bottom right coords of detection box:", self.bottomRight, "\n")

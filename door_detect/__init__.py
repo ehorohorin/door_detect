@@ -1,2 +1,2 @@
-from shape import Shape
-from detector import Detector
+from .shape import Shape
+from .detector import Detector
